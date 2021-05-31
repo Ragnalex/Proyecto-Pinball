@@ -302,6 +302,63 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &83208317
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 83208319}
+  - component: {fileID: 83208318}
+  m_Layer: 0
+  m_Name: ZonaLost
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &83208318
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 83208317}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.16024029, y: -0.10089183}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.0563986, y: 0.79821634}
+  m_EdgeRadius: 0
+--- !u!4 &83208319
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 83208317}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.32, y: -7.15, z: -187.37428}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &88409954
 GameObject:
   m_ObjectHideFlags: 0
@@ -952,7 +1009,7 @@ GameObject:
   - component: {fileID: 385390401}
   - component: {fileID: 385390400}
   m_Layer: 0
-  m_Name: triangulo
+  m_Name: LTriangulo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1083,6 +1140,7 @@ GameObject:
   - component: {fileID: 522626509}
   - component: {fileID: 522626508}
   - component: {fileID: 522626511}
+  - component: {fileID: 522626510}
   m_Layer: 0
   m_Name: ResorteCuerdaCowboy
   m_TagString: Untagged
@@ -1149,13 +1207,39 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 522626507}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.3036, y: -3.0161, z: 0}
-  m_LocalScale: {x: 0.8084918, y: 1.079, z: 1}
+  m_LocalPosition: {x: 5.31, y: -2.99, z: 0}
+  m_LocalScale: {x: 0.8084918, y: 1.1773913, z: 1}
   m_Children:
   - {fileID: 114421207}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &522626510
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 522626507}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.04738781, y: -0.36485052}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.14, y: 6.68}
+    newSize: {x: 1.14, y: 6.68}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.95044893, y: 5.5004616}
+  m_EdgeRadius: 0
 --- !u!50 &522626511
 Rigidbody2D:
   serializedVersion: 4
@@ -1445,7 +1529,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 598871560}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.45, y: 0.36, z: 0}
+  m_LocalPosition: {x: 5.45, y: 0.23, z: 0}
   m_LocalScale: {x: 0.19210264, y: 0.17702675, z: 1}
   m_Children:
   - {fileID: 524526482}
@@ -1578,7 +1662,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 801288756}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.27, z: 0}
+  m_LocalPosition: {x: 0, y: 2.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 114421207}
@@ -1601,7 +1685,7 @@ SpringJoint2D:
   m_Anchor: {x: 0, y: 0}
   m_ConnectedAnchor: {x: 0, y: -1}
   m_AutoConfigureDistance: 1
-  m_Distance: 3.5283298
+  m_Distance: 3.8853912
   m_DampingRatio: 0
   m_Frequency: 10
 --- !u!50 &801288759
@@ -1637,7 +1721,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44e4aa54095eaa543b380ef65a721c8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxForce: 200
+  maxForce: 500
   isTouched: 0
   isKeyPress: 0
   resorte: {fileID: 522626507}
@@ -1656,7 +1740,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -2.48604}
+  m_Offset: {x: -0.013329506, y: -1.7189875}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1667,7 +1751,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 4.98287}
+  m_Size: {x: 0.973341, y: 3.4487648}
   m_EdgeRadius: 0
 --- !u!1 &844273996
 GameObject:
@@ -2969,7 +3053,7 @@ GameObject:
   - component: {fileID: 1921489668}
   - component: {fileID: 1921489667}
   m_Layer: 0
-  m_Name: triangulo (1)
+  m_Name: RTriangulo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3255,7 +3339,8 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: 1.6151791, y: -6.761351}
+  - {x: 2.5086207, y: -6.5306816}
+  - {x: 1.6092024, y: -6.55754}
   - {x: 1.6332083, y: 3.47669}
   - {x: 1.5965109, y: 3.721811}
   - {x: 1.537281, y: 3.935372}
@@ -3355,7 +3440,7 @@ EdgeCollider2D:
   - {x: 2.415904, y: 4.2892513}
   - {x: 2.5600467, y: 3.4813468}
   - {x: 2.5470119, y: 2.8024294}
-  - {x: 2.5331511, y: -6.6592236}
+  - {x: 2.5106916, y: -6.507349}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
