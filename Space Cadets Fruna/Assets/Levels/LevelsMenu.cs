@@ -10,6 +10,14 @@ public class LevelsMenu : MonoBehaviour
     {
         SceneManager.LoadScene("Cowboy Level");
     }
+    public void Level2()
+    {
+        SceneManager.LoadScene("TerrorLevel");
+    }
+    public void Level3()
+    {
+        SceneManager.LoadScene("StarWars level");
+    }
     public void Principal()
     {
         SceneManager.LoadScene("MenuPrincipal");
