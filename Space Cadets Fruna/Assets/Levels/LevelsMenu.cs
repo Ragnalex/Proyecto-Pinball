@@ -18,6 +18,10 @@ public class LevelsMenu : MonoBehaviour
     {
         SceneManager.LoadScene("StarWars level");
     }
+    public void Level4()
+    {
+        SceneManager.LoadScene("Apocalipsis");
+    }
     public void Principal()
     {
         SceneManager.LoadScene("MenuPrincipal");
