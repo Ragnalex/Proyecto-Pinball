@@ -1,7 +1,11 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.4f1 (0abb6314276a) revision 703331'; Using compiler version '192528614'; Build Type 'Release'
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 OS: 'Windows 10 Pro; OS build 19042.985; Version 2009; 64bit' Language: 'es' Physical Memory: 12248 MB
+=======
+OS: 'Windows 10 Pro; OS build 19042.1052; Version 2009; 64bit' Language: 'es' Physical Memory: 12248 MB
+>>>>>>> Stashed changes
 =======
 OS: 'Windows 10 Pro; OS build 19042.1052; Version 2009; 64bit' Language: 'es' Physical Memory: 12248 MB
 >>>>>>> Stashed changes
@@ -15,6 +19,7 @@ C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 C:/Users/Ragnalex/Documents/GitHub/SpaceCadetsFruna/Space Cadets Fruna
 -logFile
@@ -44,6 +49,21 @@ Initialize engine version: 2020.3.4f1 (0abb6314276a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/Ragnalex/Documents/Docs U/Proyecto/Project/SpaceCadetsFruna/Space Cadets Fruna/Assets
 >>>>>>> Stashed changes
+=======
+C:/Users/Ragnalex/Documents/Docs U/Proyecto/Project/SpaceCadetsFruna/Space Cadets Fruna
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50185
+Successfully changed project path to: C:/Users/Ragnalex/Documents/Docs U/Proyecto/Project/SpaceCadetsFruna/Space Cadets Fruna
+C:/Users/Ragnalex/Documents/Docs U/Proyecto/Project/SpaceCadetsFruna/Space Cadets Fruna
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 67.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.4f1 (0abb6314276a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Ragnalex/Documents/Docs U/Proyecto/Project/SpaceCadetsFruna/Space Cadets Fruna/Assets
+>>>>>>> Stashed changes
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
@@ -56,7 +76,11 @@ Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Managed
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56000
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56736
+>>>>>>> Stashed changes
 =======
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56736
 >>>>>>> Stashed changes
@@ -64,6 +88,7 @@ Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 Registered in 0.004763 seconds.
 Native extension for WindowsStandalone target not found
@@ -308,6 +333,40 @@ Total: 3.764400 ms (FindLiveObjects: 0.371800 ms CreateObjectMapping: 0.278500 m
 
 ========================================================================
 Received Import Request.
+=======
+Registered in 0.004390 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 66.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.160 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002320 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 67.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.872 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1828 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.8 MB.
+System memory in use after: 87.8 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2271.
+Total: 3.764400 ms (FindLiveObjects: 0.371800 ms CreateObjectMapping: 0.278500 ms MarkObjects: 2.785600 ms  DeleteObjects: 0.326300 ms)
+
+========================================================================
+Received Import Request.
+>>>>>>> Stashed changes
   path: Assets/Cowboy Lvel/ES_Life of a Cowboy.mp3
   artifactKey: Guid(ce34b41d1d579a04a898ee568ddcb249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Cowboy Lvel/ES_Life of a Cowboy.mp3 using Guid(ce34b41d1d579a04a898ee568ddcb249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '960e3b16bf8e01bee8e4e18b68387351') in 0.294008 seconds
@@ -352,6 +411,7 @@ Received Import Request.
   artifactKey: Guid(462584004c6b1bb46a458c0ba6f3be5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Cowboy Lvel/Bumper25.png using Guid(462584004c6b1bb46a458c0ba6f3be5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ad8eacb22bca89b64400e3f36eec58') in 0.026629 seconds
   Import took 0.035752 seconds .
+<<<<<<< Updated upstream
 
 ========================================================================
 Received Import Request.
@@ -387,11 +447,49 @@ Start importing Assets/TerrorLevel/flipperTerror3.png using Guid(7ae3bdfa5cdc847
 
 ========================================================================
 Received Import Request.
+=======
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/TerrorLevel
+  artifactKey: Guid(3718119eea1d7a945a226197208b42bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrorLevel using Guid(3718119eea1d7a945a226197208b42bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8af623eee0a6e019b2f8add77dbf920b') in 0.018181 seconds
+  Import took 0.045886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/TerrorLevel/NewBar.png
+  artifactKey: Guid(b1e08ac8a4844d748be823213e2b9c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrorLevel/NewBar.png using Guid(b1e08ac8a4844d748be823213e2b9c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb012cbfd9e12663fc8715fe2372dc99') in 0.050807 seconds
+  Import took 0.060856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000480 seconds.
+  path: Assets/TerrorLevel/Comp1.png
+  artifactKey: Guid(432e447a22d10ec4ea0501ad258b675e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrorLevel/Comp1.png using Guid(432e447a22d10ec4ea0501ad258b675e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81e457051822da7b08a2efdd1816c6d8') in 0.033013 seconds
+  Import took 0.038880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002490 seconds.
+  path: Assets/TerrorLevel/flipperTerror3.png
+  artifactKey: Guid(7ae3bdfa5cdc8474b859a3ecfc819f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrorLevel/flipperTerror3.png using Guid(7ae3bdfa5cdc8474b859a3ecfc819f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b480fc5438b759b1385c951572b3d2') in 0.037218 seconds
+  Import took 0.042611 seconds .
+
+========================================================================
+Received Import Request.
+>>>>>>> Stashed changes
   Time since last request: 0.000372 seconds.
   path: Assets/Cowboy Lvel/ramp1.png
   artifactKey: Guid(1a19180c3fa825c4ebd5692bcd220891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Cowboy Lvel/ramp1.png using Guid(1a19180c3fa825c4ebd5692bcd220891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02245ffdb529430b878b347fa93a1358') in 0.028572 seconds
   Import took 0.038678 seconds .
+<<<<<<< Updated upstream
 
 ========================================================================
 Received Import Request.
@@ -403,6 +501,19 @@ Start importing Assets/TerrorLevel/fondo terror.png using Guid(0ea2c5132d3361443
 
 ========================================================================
 Received Import Request.
+=======
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/TerrorLevel/fondo terror.png
+  artifactKey: Guid(0ea2c5132d3361443bfe2738363c9bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrorLevel/fondo terror.png using Guid(0ea2c5132d3361443bfe2738363c9bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0383d3cee56885a8bd62f4dc715e34fe') in 0.057587 seconds
+  Import took 0.064736 seconds .
+
+========================================================================
+Received Import Request.
+>>>>>>> Stashed changes
   Time since last request: 0.000351 seconds.
   path: Assets/TerrorLevel/flipperTerror.png
   artifactKey: Guid(19101c6e8e7d2ad44919a0b057d525f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -440,6 +551,7 @@ Received Import Request.
   artifactKey: Guid(95bb8b2246061f34fb5433e3b45bf54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/StarWars level using Guid(95bb8b2246061f34fb5433e3b45bf54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b4981c2ac2d52e733f0a8076064bf7') in 0.017370 seconds
   Import took 0.022254 seconds .
+<<<<<<< Updated upstream
 
 ========================================================================
 Received Import Request.
@@ -459,6 +571,27 @@ Start importing Assets/StarWars level/StarWarsFondo.png using Guid(ce7d0589f5e9b
 
 ========================================================================
 Received Import Request.
+=======
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020538 seconds.
+  path: Assets/StarWars level/SpaceFlipper.png
+  artifactKey: Guid(8224c504c37ef8b42a1267cd81a58976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarWars level/SpaceFlipper.png using Guid(8224c504c37ef8b42a1267cd81a58976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc2475ca31d0e171b742c29915df1fe6') in 0.026412 seconds
+  Import took 0.033860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/StarWars level/StarWarsFondo.png
+  artifactKey: Guid(ce7d0589f5e9ba24586cf17e6ebd09fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarWars level/StarWarsFondo.png using Guid(ce7d0589f5e9ba24586cf17e6ebd09fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c68a912fb1821250a40b575871ec841') in 0.036123 seconds
+  Import took 0.040415 seconds .
+
+========================================================================
+Received Import Request.
+>>>>>>> Stashed changes
   Time since last request: 0.000342 seconds.
   path: Assets/StarWars level/star-wars-battlefront-2-juego-nave-en-el-espacio-papel-pintado-2560x1920_27.jpg
   artifactKey: Guid(f61cefc4d2032324088ccf3cea05dcef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -485,6 +618,9 @@ System memory in use after: 89.7 MB.
 
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2302.
 Total: 3.770000 ms (FindLiveObjects: 0.359400 ms CreateObjectMapping: 0.092500 ms MarkObjects: 2.690000 ms  DeleteObjects: 0.625600 ms)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

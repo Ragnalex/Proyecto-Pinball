@@ -20,7 +20,11 @@ MonoBehaviour:
     height: 817
   m_ShowMode: 4
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_Title: Project
+=======
+  m_Title: Game
+>>>>>>> Stashed changes
 =======
   m_Title: Game
 >>>>>>> Stashed changes
@@ -127,7 +131,11 @@ MonoBehaviour:
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   controlID: 116
+=======
+  controlID: 110
+>>>>>>> Stashed changes
 =======
   controlID: 110
 >>>>>>> Stashed changes
@@ -156,7 +164,11 @@ MonoBehaviour:
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   controlID: 117
+=======
+  controlID: 111
+>>>>>>> Stashed changes
 =======
   controlID: 111
 >>>>>>> Stashed changes
@@ -185,7 +197,11 @@ MonoBehaviour:
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   controlID: 118
+=======
+  controlID: 112
+>>>>>>> Stashed changes
 =======
   controlID: 112
 >>>>>>> Stashed changes
@@ -324,6 +340,9 @@ MonoBehaviour:
     x: 269
     y: 73
     width: 799
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     height: 408
   m_ViewDataDictionary: {fileID: 0}
@@ -420,8 +439,13 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       m_SelectedIDs: 8e400000
       m_LastClickedID: 16526
+=======
+      m_SelectedIDs: cc410000
+      m_LastClickedID: 0
+>>>>>>> Stashed changes
 =======
       m_SelectedIDs: cc410000
       m_LastClickedID: 0
@@ -790,7 +814,11 @@ MonoBehaviour:
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_LastVerticalScrollValue: 1001
+=======
+  m_LastVerticalScrollValue: 0
+>>>>>>> Stashed changes
 =======
   m_LastVerticalScrollValue: 0
 >>>>>>> Stashed changes
