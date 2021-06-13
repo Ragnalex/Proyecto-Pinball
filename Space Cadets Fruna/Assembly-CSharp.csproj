@@ -48,11 +48,18 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\MenuPrincipal\MainMenu.cs" />
+     <Compile Include="Assets\Cowboy Lvel\Bumper.cs" />
      <Compile Include="Assets\Levels\LevelsMenu.cs" />
+     <Compile Include="Assets\Cowboy Lvel\Bala3.cs" />
      <Compile Include="Assets\Cowboy Lvel\ScoreController.cs" />
+     <Compile Include="Assets\Cowboy Lvel\Triangulo.cs" />
      <Compile Include="Assets\MenuP.cs" />
+     <Compile Include="Assets\Cowboy Lvel\Resorte.cs" />
      <Compile Include="Assets\Cowboy Lvel\PauseMenu.cs" />
+     <Compile Include="Assets\Cowboy Lvel\Bala1.cs" />
+     <Compile Include="Assets\Cowboy Lvel\Bala2.cs" />
      <Compile Include="Assets\Cowboy Lvel\Plunger.cs" />
+     <Compile Include="Assets\B1.cs" />
      <Compile Include="Assets\Cowboy Lvel\FlipperController.cs" />
      <Compile Include="Assets\Lost.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
