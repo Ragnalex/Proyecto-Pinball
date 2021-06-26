@@ -9,6 +9,7 @@ TagManager:
   - Bumper25
   - Zona Lost
   - ZonaLost
+  - Ball
   layers:
   - Default
   - TransparentFX
