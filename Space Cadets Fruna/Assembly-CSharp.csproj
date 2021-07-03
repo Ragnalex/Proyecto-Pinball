@@ -56,6 +56,7 @@
      <Compile Include="Assets\MenuP.cs" />
      <Compile Include="Assets\Cowboy Lvel\Resorte.cs" />
      <Compile Include="Assets\Cowboy Lvel\PauseMenu.cs" />
+     <Compile Include="Assets\Test.cs" />
      <Compile Include="Assets\Cowboy Lvel\Bala1.cs" />
      <Compile Include="Assets\Cowboy Lvel\Bala2.cs" />
      <Compile Include="Assets\Cowboy Lvel\Plunger.cs" />
