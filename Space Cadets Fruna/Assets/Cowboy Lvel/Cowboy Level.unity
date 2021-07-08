@@ -346,8 +346,10 @@ GameObject:
   - component: {fileID: 65600550}
   - component: {fileID: 65600549}
   - component: {fileID: 65600548}
+  - component: {fileID: 65600553}
   - component: {fileID: 65600551}
   - component: {fileID: 65600552}
+  - component: {fileID: 65600554}
   m_Layer: 0
   m_Name: Bumper50
   m_TagString: Bumper50
@@ -473,6 +475,36 @@ PointEffector2D:
   m_ForceMode: 0
   m_Drag: 5000
   m_AngularDrag: 1000
+--- !u!114 &65600553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65600547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a60e0a7178b394b4f9c7afe52a3b35e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colision: {fileID: 8300000, guid: 0ac2b9fcc8331304496bb7f039dc9c5a, type: 3}
+  volume: 1
+--- !u!58 &65600554
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65600547}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.004156788, y: 0}
+  serializedVersion: 2
+  m_Radius: 1.7225587
 --- !u!1 &80670103
 GameObject:
   m_ObjectHideFlags: 0
@@ -2412,7 +2444,9 @@ GameObject:
   - component: {fileID: 584177670}
   - component: {fileID: 584177669}
   - component: {fileID: 584177672}
+  - component: {fileID: 584177674}
   - component: {fileID: 584177673}
+  - component: {fileID: 584177675}
   m_Layer: 0
   m_Name: Bumper100
   m_TagString: Bumper100
@@ -2538,6 +2572,36 @@ PointEffector2D:
   m_ForceMode: 0
   m_Drag: 5000
   m_AngularDrag: 1000
+--- !u!114 &584177674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 584177668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a60e0a7178b394b4f9c7afe52a3b35e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colision: {fileID: 8300000, guid: 0ac2b9fcc8331304496bb7f039dc9c5a, type: 3}
+  volume: 1
+--- !u!58 &584177675
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 584177668}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.012511427, y: 0}
+  serializedVersion: 2
+  m_Radius: 1.7069892
 --- !u!1 &598871560
 GameObject:
   m_ObjectHideFlags: 0
@@ -5296,8 +5360,10 @@ GameObject:
   - component: {fileID: 1782517339}
   - component: {fileID: 1782517338}
   - component: {fileID: 1782517337}
+  - component: {fileID: 1782517340}
   - component: {fileID: 1782517335}
   - component: {fileID: 1782517336}
+  - component: {fileID: 1782517341}
   m_Layer: 0
   m_Name: Bumper25
   m_TagString: Bumper25
@@ -5355,9 +5421,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 1
   m_UsedByComposite: 0
-  m_Offset: {x: -0.010407188, y: 0}
+  m_Offset: {x: -0.056769177, y: 0}
   serializedVersion: 2
-  m_Radius: 1.5754248
+  m_Radius: 1.6217867
 --- !u!212 &1782517338
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5423,6 +5489,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1782517340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1782517334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a60e0a7178b394b4f9c7afe52a3b35e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colision: {fileID: 8300000, guid: 0ac2b9fcc8331304496bb7f039dc9c5a, type: 3}
+  volume: 1
+--- !u!58 &1782517341
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1782517334}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.010391608, y: 0}
+  serializedVersion: 2
+  m_Radius: 1.6153201
 --- !u!1 &1875238368
 GameObject:
   m_ObjectHideFlags: 0
