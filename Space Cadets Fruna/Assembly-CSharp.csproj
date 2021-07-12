@@ -47,6 +47,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Cowboy Lvel\Sound.cs" />
      <Compile Include="Assets\MenuPrincipal\MainMenu.cs" />
      <Compile Include="Assets\Cowboy Lvel\Bumper.cs" />
      <Compile Include="Assets\Levels\LevelsMenu.cs" />
