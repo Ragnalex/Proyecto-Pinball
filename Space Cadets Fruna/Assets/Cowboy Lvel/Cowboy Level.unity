@@ -4776,8 +4776,8 @@ Canvas:
   m_GameObject: {fileID: 1461638420}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 844273998}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -4786,7 +4786,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_TargetDisplay: 0
 --- !u!224 &1461638424
 RectTransform:
@@ -5849,7 +5849,7 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.6255164, y: -0.5704324}
+    - - {x: 0.7380869, y: -0.62132066}
       - {x: 0.60762453, y: -0.5036141}
       - {x: 0.5552494, y: -0.48222804}
       - {x: -0.3423751, y: -0.056485444}
@@ -5870,7 +5870,7 @@ PolygonCollider2D:
       - {x: 0.49423468, y: -0.85881424}
       - {x: 0.5111243, y: -0.7775732}
       - {x: 0.5276249, y: -0.7121287}
-      - {x: 0.60762477, y: -0.6263858}
+      - {x: 0.63576734, y: -0.6433486}
 --- !u!212 &2017763637
 SpriteRenderer:
   m_ObjectHideFlags: 0
