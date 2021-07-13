@@ -23,7 +23,10 @@ public class ScoreController : MonoBehaviour
     }
 
     void OnTriggerEnter2D(Collider2D collision){
-        if (collision.gameObject.tag == "Bumper25"){
+        if (collision.gameObject.tag == "Bumper10"){
+            score = score + 10;
+        }
+        else if (collision.gameObject.tag == "Bumper25"){
             score = score + 25;
         }
         else if (collision.gameObject.tag == "Bumper50"){
@@ -31,6 +34,15 @@ public class ScoreController : MonoBehaviour
         }
         else if (collision.gameObject.tag == "Bumper100"){
             score = score + 100;
+        }
+        else if (collision.gameObject.tag == "MultiX2"){
+            score = score*2;
+        }
+        else if (collision.gameObject.tag == "MultiX3"){
+            score = score*3;
+        }
+        else if (collision.gameObject.tag == "MultiX5"){
+            score = score*5;
         }
     }
 }

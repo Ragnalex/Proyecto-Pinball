@@ -20,7 +20,15 @@ public class LevelsMenu : MonoBehaviour
     }
     public void Level4()
     {
-        SceneManager.LoadScene("Apocalipsis");
+        SceneManager.LoadScene("Apocalipsis2");
+    }
+    public void Level5()
+    {
+        SceneManager.LoadScene("zombies");
+    }
+    public void Level6()
+    {
+        SceneManager.LoadScene("covid");
     }
     public void Principal()
     {
