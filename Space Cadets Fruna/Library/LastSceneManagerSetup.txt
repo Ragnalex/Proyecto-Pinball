@@ -1,5 +1,25 @@
 sceneSetups:
 - path: Assets/corona level/covid.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Cowboy Lvel/Cowboy Level.unity
   isLoaded: 1
   isActive: 1
+  isSubScene: 0
+- path: Assets/Zombies Level/zombies.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/TerrorLevel/TerrorLevel.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/StarWars level/StarWars level.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Apocalipsis Level/Apocalipsis.unity
+  isLoaded: 0
+  isActive: 0
   isSubScene: 0
