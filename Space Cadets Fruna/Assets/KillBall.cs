@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class KillBall : MonoBehaviour
 {
     [SerializeField] Transform spawnpoint;
     public int VidaMaxima = 3;
     public int vidaActual;
-    public Text vidas;
+    public TextMeshProUGUI vidas;
     public GameObject PanelGameOver;
 
     void Start()

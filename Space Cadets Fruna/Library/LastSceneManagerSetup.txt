@@ -1,29 +1,5 @@
 sceneSetups:
-- path: Assets/Apocalipsis Level/Apocalipsis2.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Cowboy Lvel/Cowboy Level.unity
+- path: Assets/corona level/covid.unity
   isLoaded: 1
   isActive: 1
-  isSubScene: 0
-- path: Assets/StarWars level/StarWars level.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/TerrorLevel/TerrorLevel.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/corona level/covid.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Zombies Level/zombies.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Levels/LevelList.unity
-  isLoaded: 0
-  isActive: 0
   isSubScene: 0
