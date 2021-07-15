@@ -12,22 +12,50 @@ public class KillBall : MonoBehaviour
     public int vidaActual;
     public TextMeshProUGUI vidas;
     public GameObject PanelGameOver;
-
+    public Rigidbody2D rb;
+    private Shake shake;
+    private int contadorTilt = 0;
+    private GameObject ball;
+    public float deltaMovement = 1f;
     void Start()
+
+
     {
         PanelGameOver.SetActive(false);
         vidaActual = VidaMaxima;
+        shake = GameObject.FindGameObjectWithTag("ScreenShake").GetComponent<Shake>();
+        ball = GameObject.FindGameObjectWithTag("Ball");
+
     }
     void Update()
     {
         vidas.text = "" + vidaActual;
+        if (vidaActual < 1)
+        {
+            gameOver();
+        }
+        if (Input.GetKeyUp(KeyCode.S))
+        {
+            shake.CamShake();
+            contadorTilt++;
+            if (contadorTilt % 3 == 0)
+            {
+                vidaActual = vidaActual - 1;
+                ball.transform.position = spawnpoint.position;
+
+            }
+
+
+            ball.transform.Translate(Vector2.right * deltaMovement * Time.deltaTime);
+
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D col)
     {
         if (col.transform.CompareTag("Ball"))
         {
-            if(vidaActual > 1)
+            if (vidaActual > 1)
             {
                 col.transform.position = spawnpoint.position;
                 vidaActual = vidaActual - 1;
@@ -36,14 +64,15 @@ public class KillBall : MonoBehaviour
             {
                 gameOver();
             }
-            
+
         }
 
     }
     public void gameOver()
     {
-        PanelGameOver.SetActive(true);
         Time.timeScale = 0f;
+        PanelGameOver.SetActive(true);
+
     }
     public void Cargarmenu()
     {

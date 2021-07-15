@@ -1299,8 +1299,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -4968,8 +4968,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -5265,7 +5265,7 @@ GameObject:
   - component: {fileID: 1612515794}
   m_Layer: 0
   m_Name: ShakeManager
-  m_TagString: Untagged
+  m_TagString: ScreenShake
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6386,6 +6386,7 @@ GameObject:
   - component: {fileID: 1858614832}
   - component: {fileID: 1858614833}
   - component: {fileID: 1858614834}
+  - component: {fileID: 1858614835}
   m_Layer: 0
   m_Name: Ball3
   m_TagString: Ball
@@ -6509,8 +6510,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   TXTscore: {fileID: 1887763911}
-  goal: 0
+  goal: 10000
   panelVictoria: {fileID: 2065961935}
+--- !u!114 &1858614835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1858614829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a1e1a06e8d4435489f8235be188da74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
 --- !u!1 &1880397129
 GameObject:
   m_ObjectHideFlags: 0
@@ -7034,6 +7048,8 @@ MonoBehaviour:
   vidaActual: 0
   vidas: {fileID: 1146476878}
   PanelGameOver: {fileID: 82307647}
+  rb: {fileID: 0}
+  deltaMovement: 1
 --- !u!1 &1938869559
 GameObject:
   m_ObjectHideFlags: 0
