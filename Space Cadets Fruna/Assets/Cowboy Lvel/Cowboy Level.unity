@@ -221,7 +221,7 @@ Transform:
   m_GameObject: {fileID: 65600547}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3.57, y: 3.83, z: 0}
-  m_LocalScale: {x: 0.49352354, y: 0.4837, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 14
@@ -243,6 +243,10 @@ MonoBehaviour:
   p2: {x: 0, y: 0}
   p3: {x: 0, y: 0}
   b: 0
+  ax: 0.4
+  ay: 0.4
+  bx: 0.5
+  by: 0.5
 --- !u!250 &65600552
 PointEffector2D:
   m_ObjectHideFlags: 0
@@ -1791,6 +1795,10 @@ MonoBehaviour:
   p2: {x: 0, y: 0}
   p3: {x: 0, y: 0}
   bb: 0
+  ax: 1.9
+  ay: 1.9
+  bx: 2
+  by: 2
 --- !u!1 &439865935
 GameObject:
   m_ObjectHideFlags: 0
@@ -2841,7 +2849,7 @@ Transform:
   m_GameObject: {fileID: 584177668}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.04, y: 6.02, z: 0}
-  m_LocalScale: {x: 0.4935235, y: 0.4837, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 17
@@ -2863,6 +2871,10 @@ MonoBehaviour:
   p2: {x: 0, y: 0}
   p3: {x: 0, y: 0}
   b: 0
+  ax: 0.4
+  ay: 0.4
+  bx: 0.5
+  by: 0.5
 --- !u!250 &584177673
 PointEffector2D:
   m_ObjectHideFlags: 0
@@ -6738,6 +6750,10 @@ MonoBehaviour:
   p2: {x: 0, y: 0}
   p3: {x: 0, y: 0}
   b: 0
+  ax: 0.4
+  ay: 0.4
+  bx: 0.5
+  by: 0.5
 --- !u!250 &1782517336
 PointEffector2D:
   m_ObjectHideFlags: 0
@@ -6834,7 +6850,7 @@ Transform:
   m_GameObject: {fileID: 1782517334}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.35, y: 3.86, z: 0}
-  m_LocalScale: {x: 0.4935235, y: 0.4837, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 13
@@ -7208,6 +7224,10 @@ MonoBehaviour:
   p2: {x: 0, y: 0}
   p3: {x: 0, y: 0}
   bb: 0
+  ax: 1.9
+  ay: 1.9
+  bx: 2
+  by: 2
 --- !u!1 &1936750081
 GameObject:
   m_ObjectHideFlags: 0
