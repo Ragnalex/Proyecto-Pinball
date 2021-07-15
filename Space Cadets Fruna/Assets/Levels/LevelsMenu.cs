@@ -6,29 +6,30 @@ using UnityEngine.SceneManagement;
 public class LevelsMenu : MonoBehaviour
 {
     // Start is called before the first frame update
+    
     public void Level1()
     {
-        SceneManager.LoadScene("Cowboy Level");
+        SceneManager.LoadScene(2);
     }
     public void Level2()
     {
-        SceneManager.LoadScene("TerrorLevel");
+        SceneManager.LoadScene(3);
     }
     public void Level3()
     {
-        SceneManager.LoadScene("StarWars level");
+        SceneManager.LoadScene(4);
     }
     public void Level4()
     {
-        SceneManager.LoadScene("Apocalipsis2");
+        SceneManager.LoadScene(5);
     }
     public void Level5()
     {
-        SceneManager.LoadScene("zombies");
+        SceneManager.LoadScene(6);
     }
     public void Level6()
     {
-        SceneManager.LoadScene("covid");
+        SceneManager.LoadScene(7);
     }
     public void Principal()
     {

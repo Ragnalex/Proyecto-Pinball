@@ -1,13 +1,5 @@
 sceneSetups:
-- path: Assets/Levels/LevelList.unity
+- path: Assets/Zombies Level/zombies.unity
   isLoaded: 1
   isActive: 1
-  isSubScene: 0
-- path: Assets/Cowboy Lvel/Cowboy Level.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/StarWars level/StarWars level.unity
-  isLoaded: 0
-  isActive: 0
   isSubScene: 0

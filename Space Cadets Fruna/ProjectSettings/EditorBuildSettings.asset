@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/MenuPrincipal/MenuPrincipal.unity
+    guid: 0a9e0dafc95ee224a8b0bcf2a539ecb4
   - enabled: 1
     path: Assets/Levels/LevelList.unity
     guid: 57fd18d9631123b43b61047f1efc77b3
@@ -15,6 +18,18 @@ EditorBuildSettings:
     path: Assets/Cowboy Lvel/Cowboy Level.unity
     guid: fb29f3821c5bc55409f0a9b26bd13077
   - enabled: 1
-    path: Assets/MenuPrincipal/MenuPrincipal.unity
-    guid: 0a9e0dafc95ee224a8b0bcf2a539ecb4
+    path: Assets/TerrorLevel/TerrorLevel.unity
+    guid: 7dd7dc660c7a07c45b9020ca5daee2cc
+  - enabled: 1
+    path: Assets/StarWars level/StarWars level.unity
+    guid: f3479ecc05c7f0640bcffc6b7fd84997
+  - enabled: 1
+    path: Assets/Apocalipsis Level/Apocalipsis2.unity
+    guid: 8cedaeff1d49f6646b6cde82dc899b4d
+  - enabled: 1
+    path: Assets/Zombies Level/zombies.unity
+    guid: a6bb3fa2c5772504fa67658dc40feb61
+  - enabled: 1
+    path: Assets/corona level/covid.unity
+    guid: 6a78b8f0e81784140bd773b972120abe
   m_configObjects: {}
