@@ -266,6 +266,8 @@ GameObject:
   m_Component:
   - component: {fileID: 21443351}
   - component: {fileID: 21443350}
+  - component: {fileID: 21443353}
+  - component: {fileID: 21443352}
   m_Layer: 0
   m_Name: cara_zombie (1)
   m_TagString: Untagged
@@ -338,6 +340,39 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &21443352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 21443349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52f424a28036c194c947f226c279844b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sp: {fileID: 0}
+  sp2: {fileID: 21300000, guid: 44566ffaa9569674bae744b5ec109d1d, type: 3}
+  sp3: {fileID: 21300000, guid: 5eea51d18a1624049a0d358913580565, type: 3}
+  p: 0
+  s: 0
+--- !u!70 &21443353
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 21443349}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 6.26, y: 7.700001}
+  m_Direction: 0
 --- !u!1 &110583005
 GameObject:
   m_ObjectHideFlags: 0
@@ -573,6 +608,8 @@ GameObject:
   m_Component:
   - component: {fileID: 154714105}
   - component: {fileID: 154714104}
+  - component: {fileID: 154714107}
+  - component: {fileID: 154714106}
   m_Layer: 0
   m_Name: cara_zombie
   m_TagString: Untagged
@@ -645,6 +682,39 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &154714106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 154714103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52f424a28036c194c947f226c279844b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sp: {fileID: 0}
+  sp2: {fileID: 21300000, guid: 44566ffaa9569674bae744b5ec109d1d, type: 3}
+  sp3: {fileID: 21300000, guid: 5eea51d18a1624049a0d358913580565, type: 3}
+  p: 0
+  s: 0
+--- !u!70 &154714107
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 154714103}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.015444616, y: 0}
+  m_Size: {x: 5.1789074, y: 7.7}
+  m_Direction: 0
 --- !u!1 &182512563
 GameObject:
   m_ObjectHideFlags: 0
@@ -733,6 +803,7 @@ GameObject:
   - component: {fileID: 187332754}
   - component: {fileID: 187332753}
   - component: {fileID: 187332755}
+  - component: {fileID: 187332756}
   m_Layer: 0
   m_Name: Bumper100
   m_TagString: Bumper100
@@ -800,7 +871,7 @@ Transform:
   m_GameObject: {fileID: 187332750}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.68, y: 3.9554, z: 0}
-  m_LocalScale: {x: 0.3136, y: 0.3026753, z: 1}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 15
@@ -857,6 +928,27 @@ CircleCollider2D:
   m_Offset: {x: 0.01544665, y: -0.02133851}
   serializedVersion: 2
   m_Radius: 1.646996
+--- !u!114 &187332756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 187332750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42eccad1dd2079f4e87b915f1b45b43f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  accum: 0
+  p1: {x: 0, y: 0}
+  p2: {x: 0, y: 0}
+  p3: {x: 0, y: 0}
+  b: 0
+  ax: 0.1
+  ay: 0.1
+  bx: 0.2
+  by: 0.2
 --- !u!1 &219383805
 GameObject:
   m_ObjectHideFlags: 0
@@ -1862,6 +1954,7 @@ GameObject:
   - component: {fileID: 661772143}
   - component: {fileID: 661772142}
   - component: {fileID: 661772144}
+  - component: {fileID: 661772145}
   m_Layer: 0
   m_Name: Bumper50
   m_TagString: Bumper50
@@ -1929,7 +2022,7 @@ Transform:
   m_GameObject: {fileID: 661772139}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.39, y: 2.8, z: 0}
-  m_LocalScale: {x: 0.1950696, y: 0.20615916, z: 1}
+  m_LocalScale: {x: 0.25, y: 0.25, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 17
@@ -1986,6 +2079,27 @@ CircleCollider2D:
   m_Offset: {x: -0.04386712, y: 0}
   serializedVersion: 2
   m_Radius: 1.6805918
+--- !u!114 &661772145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 661772139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42eccad1dd2079f4e87b915f1b45b43f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  accum: 0
+  p1: {x: 0, y: 0}
+  p2: {x: 0, y: 0}
+  p3: {x: 0, y: 0}
+  b: 0
+  ax: 0.15
+  ay: 0.15
+  bx: 0.25
+  by: 0.25
 --- !u!1 &663962005
 GameObject:
   m_ObjectHideFlags: 0
@@ -2064,6 +2178,7 @@ GameObject:
   - component: {fileID: 679451478}
   - component: {fileID: 679451481}
   - component: {fileID: 679451480}
+  - component: {fileID: 679451482}
   m_Layer: 0
   m_Name: triangulo_zombie (1)
   m_TagString: Untagged
@@ -2131,7 +2246,7 @@ Transform:
   m_GameObject: {fileID: 679451477}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.08, y: -2.1463, z: 0}
-  m_LocalScale: {x: 1.370148, y: 1.410086, z: 1}
+  m_LocalScale: {x: 1.4, y: 1.4, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 12
@@ -2199,6 +2314,27 @@ PolygonCollider2D:
       - {x: 0.2677009, y: -0.29921398}
       - {x: 0.36553246, y: -0.2077342}
       - {x: 0.37086958, y: -0.16}
+--- !u!114 &679451482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 679451477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b16a9eef54e2c464da8f5e94d981a184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  accum: 0
+  p1: {x: 0, y: 0}
+  p2: {x: 0, y: 0}
+  p3: {x: 0, y: 0}
+  bb: 0
+  ax: 1.3
+  ay: 1.3
+  bx: 1.4
+  by: 1.4
 --- !u!1 &724048389
 GameObject:
   m_ObjectHideFlags: 0
@@ -3259,6 +3395,7 @@ GameObject:
   - component: {fileID: 1019633038}
   - component: {fileID: 1019633041}
   - component: {fileID: 1019633040}
+  - component: {fileID: 1019633042}
   m_Layer: 0
   m_Name: triangulo_zombie
   m_TagString: Untagged
@@ -3326,7 +3463,7 @@ Transform:
   m_GameObject: {fileID: 1019633037}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.97, y: -2.08, z: 0}
-  m_LocalScale: {x: 1.3701478, y: 1.410086, z: 1}
+  m_LocalScale: {x: 1.4, y: 1.4, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
@@ -3394,6 +3531,27 @@ PolygonCollider2D:
       - {x: 0.3776163, y: -0.43125767}
       - {x: 0.37206027, y: -0.25999033}
       - {x: 0.33736172, y: -0.20284678}
+--- !u!114 &1019633042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1019633037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b16a9eef54e2c464da8f5e94d981a184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  accum: 0
+  p1: {x: 0, y: 0}
+  p2: {x: 0, y: 0}
+  p3: {x: 0, y: 0}
+  bb: 0
+  ax: 1.3
+  ay: 1.3
+  bx: 1.4
+  by: 1.4
 --- !u!1 &1050286454
 GameObject:
   m_ObjectHideFlags: 0
@@ -6334,6 +6492,7 @@ GameObject:
   - component: {fileID: 1797029629}
   - component: {fileID: 1797029628}
   - component: {fileID: 1797029630}
+  - component: {fileID: 1797029631}
   m_Layer: 0
   m_Name: Bumper25
   m_TagString: Bumper25
@@ -6401,7 +6560,7 @@ Transform:
   m_GameObject: {fileID: 1797029625}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.97, y: 2.7963, z: 0}
-  m_LocalScale: {x: 0.23894037, y: 0.2392253, z: 1}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 16
@@ -6458,6 +6617,27 @@ CircleCollider2D:
   m_Offset: {x: 0.027050298, y: 0}
   serializedVersion: 2
   m_Radius: 1.7206285
+--- !u!114 &1797029631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1797029625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42eccad1dd2079f4e87b915f1b45b43f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  accum: 0
+  p1: {x: 0, y: 0}
+  p2: {x: 0, y: 0}
+  p3: {x: 0, y: 0}
+  b: 0
+  ax: 0.2
+  ay: 0.2
+  bx: 0.3
+  by: 0.3
 --- !u!1 &1797073235
 GameObject:
   m_ObjectHideFlags: 0

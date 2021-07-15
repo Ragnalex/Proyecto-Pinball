@@ -8,11 +8,13 @@ public class Bumper : MonoBehaviour
     public float accum = 0.0f;
     public Vector2 p1, p2, p3;
     public bool b;
+    public float ax, ay;
+    public float bx, by;
     void Start()
     {
         b = false;
-        p1 = new Vector2(0.4f, 0.4f);
-        p2 = new Vector2(0.5f, 0.5f);
+        p1 = new Vector2(ax,ay);
+        p2 = new Vector2(bx,by);
     }
     void OnCollisionEnter2D(Collision2D collision)
     {

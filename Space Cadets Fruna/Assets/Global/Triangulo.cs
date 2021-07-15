@@ -8,17 +8,16 @@ public class Triangulo : MonoBehaviour
     public float accum = 0.0f;
     public Vector2 p1, p2,p3;
     public bool bb;
+    public float ax, ay;
+    public float bx, by;
 
     void Start()
     {
         bb = false;
-        p1 = new Vector2(1.9f, 1.9f);
-        p2 = new Vector2(2.0f, 2.0f);
+        p1 = new Vector2(ax, ay);
+        p2 = new Vector2(bx, by);
     }
-    void OnCollisionEnter2D(Collision2D collision)
-    {
-        bb = true;
-    }
+    
     void FixedUpdate()
     {
         if (bb)
@@ -31,5 +30,9 @@ public class Triangulo : MonoBehaviour
                 bb = false;
             }
         }
+    }
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        bb = true;
     }
 }
