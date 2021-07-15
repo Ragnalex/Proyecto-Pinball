@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class ScoreController : MonoBehaviour
 {
@@ -10,17 +11,26 @@ public class ScoreController : MonoBehaviour
 
     public int score;
     public TextMeshProUGUI TXTscore;
+    public int goal;
+    public GameObject panelVictoria;
 
     // Start is called before the first frame update
     void Start()
     {
+        panelVictoria.SetActive(false);
         score = 0;
+
     }
 
     // Update is called once per frame
     void Update()
     {
         TXTscore.text = "" + score;
+        if(score > goal)
+        {
+            panelVictoria.SetActive(true);
+            Time.timeScale = 0f;
+        }
     }
 
     void OnTriggerEnter2D(Collider2D collision){

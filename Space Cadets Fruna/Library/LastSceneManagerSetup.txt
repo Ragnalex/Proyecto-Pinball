@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/corona level/covid.unity
+- path: Assets/Levels/LevelList.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
