@@ -134,11 +134,13 @@ GameObject:
   - component: {fileID: 22380549}
   - component: {fileID: 22380548}
   - component: {fileID: 22380551}
+  - component: {fileID: 22380554}
   - component: {fileID: 22380550}
   - component: {fileID: 22380552}
+  - component: {fileID: 22380553}
   m_Layer: 0
   m_Name: Point10
-  m_TagString: Untagged
+  m_TagString: Bumper10
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -265,6 +267,36 @@ MonoBehaviour:
   ay: 0.9
   bx: 1
   by: 1
+--- !u!58 &22380553
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 22380547}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0081608, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.48875526
+--- !u!114 &22380554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 22380547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a60e0a7178b394b4f9c7afe52a3b35e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colision: {fileID: 8300000, guid: 0ac2b9fcc8331304496bb7f039dc9c5a, type: 3}
+  volume: 0.5
 --- !u!1 &33466144
 GameObject:
   m_ObjectHideFlags: 0
@@ -1114,7 +1146,7 @@ GameObject:
   - component: {fileID: 247738189}
   m_Layer: 0
   m_Name: Multi5x
-  m_TagString: Untagged
+  m_TagString: MultiX5
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1231,7 +1263,7 @@ GameObject:
   - component: {fileID: 249548838}
   m_Layer: 0
   m_Name: Multi3x
-  m_TagString: Untagged
+  m_TagString: MultiX3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1344,12 +1376,14 @@ GameObject:
   m_Component:
   - component: {fileID: 251597175}
   - component: {fileID: 251597174}
+  - component: {fileID: 251597180}
   - component: {fileID: 251597177}
   - component: {fileID: 251597176}
   - component: {fileID: 251597178}
+  - component: {fileID: 251597179}
   m_Layer: 0
   m_Name: Point20
-  m_TagString: Untagged
+  m_TagString: Bumper20
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1476,6 +1510,36 @@ MonoBehaviour:
   ay: 0.9
   bx: 1
   by: 1
+--- !u!58 &251597179
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 251597173}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5013001
+--- !u!114 &251597180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 251597173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a60e0a7178b394b4f9c7afe52a3b35e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colision: {fileID: 8300000, guid: 0ac2b9fcc8331304496bb7f039dc9c5a, type: 3}
+  volume: 0.5
 --- !u!1 &441333675
 GameObject:
   m_ObjectHideFlags: 0
@@ -1491,7 +1555,7 @@ GameObject:
   - component: {fileID: 441333679}
   m_Layer: 0
   m_Name: Multi2X
-  m_TagString: Untagged
+  m_TagString: MultiX2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1621,12 +1685,14 @@ GameObject:
   m_Component:
   - component: {fileID: 444654840}
   - component: {fileID: 444654839}
+  - component: {fileID: 444654845}
   - component: {fileID: 444654842}
   - component: {fileID: 444654841}
   - component: {fileID: 444654843}
+  - component: {fileID: 444654844}
   m_Layer: 0
   m_Name: Point30
-  m_TagString: Untagged
+  m_TagString: Bumper30
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1753,6 +1819,36 @@ MonoBehaviour:
   ay: 0.9
   bx: 1
   by: 1
+--- !u!58 &444654844
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 444654838}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.005616635, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.49568346
+--- !u!114 &444654845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 444654838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a60e0a7178b394b4f9c7afe52a3b35e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colision: {fileID: 8300000, guid: 0ac2b9fcc8331304496bb7f039dc9c5a, type: 3}
+  volume: 0.5
 --- !u!1 &457426644
 GameObject:
   m_ObjectHideFlags: 0

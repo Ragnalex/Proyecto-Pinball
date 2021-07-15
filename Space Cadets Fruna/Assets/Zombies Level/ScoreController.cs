@@ -37,8 +37,14 @@ public class ScoreController : MonoBehaviour
         if (collision.gameObject.tag == "Bumper10"){
             score = score + 10;
         }
+        else if (collision.gameObject.tag == "Bumper20"){
+            score = score + 20;
+        }
         else if (collision.gameObject.tag == "Bumper25"){
             score = score + 25;
+        }
+        else if (collision.gameObject.tag == "Bumper30"){
+            score = score + 30;
         }
         else if (collision.gameObject.tag == "Bumper50"){
             score = score + 50;

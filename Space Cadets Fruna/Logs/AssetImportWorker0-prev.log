@@ -1,125 +1,617 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.4f1 (0abb6314276a) revision 703331'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.1110; Version 2009; 64bit' Language: 'es' Physical Memory: 16332 MB
+OS: 'Windows 10 Pro; OS build 19042.1052; Version 2009; 64bit' Language: 'es' Physical Memory: 16281 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.9f1\Editor\Unity.exe
+C:\Program Files\Unity\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/theos/Documents/GitHub/SpaceCadetsFruna/Space Cadets Fruna
+C:/Users/Felipe Cortes/Documents/GitHub/SpaceCadetsFruna/Space Cadets Fruna
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60668
-Successfully changed project path to: C:/Users/theos/Documents/GitHub/SpaceCadetsFruna/Space Cadets Fruna
-C:/Users/theos/Documents/GitHub/SpaceCadetsFruna/Space Cadets Fruna
+51915
+Successfully changed project path to: C:/Users/Felipe Cortes/Documents/GitHub/SpaceCadetsFruna/Space Cadets Fruna
+C:/Users/Felipe Cortes/Documents/GitHub/SpaceCadetsFruna/Space Cadets Fruna
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 42.01 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 66.98 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.4f1 (0abb6314276a)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/theos/Documents/GitHub/SpaceCadetsFruna/Space Cadets Fruna/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Felipe Cortes/Documents/GitHub/SpaceCadetsFruna/Space Cadets Fruna/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Radeon RX 5500 XT (ID=0x7340)
+    Renderer: NVIDIA GeForce GTX 980 (ID=0x13c0)
     Vendor:   
-    VRAM:     4055 MB
-    Driver:   27.20.15003.1004
+    VRAM:     4053 MB
+    Driver:   27.21.14.6647
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56468
+Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56540
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002436 seconds.
+Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003243 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 43.24 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 65.85 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.227 seconds
+- Completed reload, in  1.681 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001211 seconds.
+Registered in 0.001444 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 43.59 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 65.83 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.037 seconds
+- Completed reload, in  1.580 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1841 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.6 MB.
-System memory in use after: 87.5 MB.
+System memory in use before: 88.1 MB.
+System memory in use after: 88.0 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2284.
-Total: 2.310600 ms (FindLiveObjects: 0.262800 ms CreateObjectMapping: 0.063500 ms MarkObjects: 1.850200 ms  DeleteObjects: 0.133100 ms)
+Total: 3.421200 ms (FindLiveObjects: 0.687500 ms CreateObjectMapping: 0.252400 ms MarkObjects: 2.277900 ms  DeleteObjects: 0.202000 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/StarWars level/StarWars level.unity
-  artifactKey: Guid(f3479ecc05c7f0640bcffc6b7fd84997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarWars level/StarWars level.unity using Guid(f3479ecc05c7f0640bcffc6b7fd84997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee10c4290476d6600c39a3e8ab2a82ef') in 0.018379 seconds
-  Import took 0.021284 seconds .
+  path: Assets/Steel.asset
+  artifactKey: Guid(fc872a86ed1f22c448a92d025e2d10e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steel.asset using Guid(fc872a86ed1f22c448a92d025e2d10e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0464f75ff51c59bf45605f365848f72d') in 0.039698 seconds
+  Import took 0.043668 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.079049 seconds.
-  path: Assets/corona level/covid.unity
-  artifactKey: Guid(6a78b8f0e81784140bd773b972120abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/corona level/covid.unity using Guid(6a78b8f0e81784140bd773b972120abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c558e2633b98e00255aaff9aabd7b0af') in 0.008700 seconds
-  Import took 0.011584 seconds .
+  Time since last request: 32.050337 seconds.
+  path: Assets/Apocalipsis Level/letra apocalipsis.asset
+  artifactKey: Guid(8417a81126a0f4f4c9fc16e4775e43f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalipsis Level/letra apocalipsis.asset using Guid(8417a81126a0f4f4c9fc16e4775e43f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc32a2d0a622d290deb61e16e263768') in 0.029015 seconds
+  Import took 0.036649 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 350.898266 seconds.
-  path: Assets/Cowboy Lvel/Cowboy Level.unity
-  artifactKey: Guid(fb29f3821c5bc55409f0a9b26bd13077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cowboy Lvel/Cowboy Level.unity using Guid(fb29f3821c5bc55409f0a9b26bd13077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cfcf489e9202b486d5231c0a140f2a6') in 0.003573 seconds
-  Import took 0.006688 seconds .
+  Time since last request: 0.000484 seconds.
+  path: Assets/Apocalipsis Level/pngwing.com.png
+  artifactKey: Guid(42177fa9ffeb0ee428b84b40d6593222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalipsis Level/pngwing.com.png using Guid(42177fa9ffeb0ee428b84b40d6593222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc1aed3d74a1ffea62dd95bbc4a991ef') in 0.200021 seconds
+  Import took 0.206006 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.672944 seconds.
-  path: Assets/Apocalipsis Level/Apocalipsis2.unity
-  artifactKey: Guid(8cedaeff1d49f6646b6cde82dc899b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalipsis Level/Apocalipsis2.unity using Guid(8cedaeff1d49f6646b6cde82dc899b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c87fd4132dd037c408bfa020e462e78b') in 0.008985 seconds
-  Import took 0.012709 seconds .
+  Time since last request: 0.000271 seconds.
+  path: Assets/Apocalipsis Level/PinClipart.com_highway-clipart_3416121.png
+  artifactKey: Guid(36606886e106f9e47a4a5534e5dc88e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalipsis Level/PinClipart.com_highway-clipart_3416121.png using Guid(36606886e106f9e47a4a5534e5dc88e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '156f56d1680f739aa4d4095520413fea') in 0.024038 seconds
+  Import took 0.028405 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.323542 seconds.
-  path: Assets/TerrorLevel/TerrorLevel.unity
-  artifactKey: Guid(7dd7dc660c7a07c45b9020ca5daee2cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrorLevel/TerrorLevel.unity using Guid(7dd7dc660c7a07c45b9020ca5daee2cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a09801b92deb7f697c7b1b9e0f86c24') in 0.002975 seconds
-  Import took 0.005841 seconds .
+  Time since last request: 1.936205 seconds.
+  path: Assets/Cowboy Lvel/Bala apagada.png
+  artifactKey: Guid(57d4d50dd239da44eb141de939f2c57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cowboy Lvel/Bala apagada.png using Guid(57d4d50dd239da44eb141de939f2c57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '585d85193b08ad7ac78eaf61864a6802') in 0.016161 seconds
+  Import took 0.021164 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.585115 seconds.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Cowboy Lvel/toppng.com-wooden-sign-png-419x600.png
+  artifactKey: Guid(9fc18b30e5d4d2e468c71d991d454ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cowboy Lvel/toppng.com-wooden-sign-png-419x600.png using Guid(9fc18b30e5d4d2e468c71d991d454ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '471a7f4e8acc0930cdf07fdff8203d38') in 0.029260 seconds
+  Import took 0.034273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Cowboy Lvel/Bala apagada.png
+  artifactKey: Guid(57d4d50dd239da44eb141de939f2c57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cowboy Lvel/Bala apagada.png using Guid(57d4d50dd239da44eb141de939f2c57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '585d85193b08ad7ac78eaf61864a6802') in 0.013312 seconds
+  Import took 0.017612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Cowboy Lvel/Bala brillante.png
+  artifactKey: Guid(0f8bde01447413d498006196eccd127c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cowboy Lvel/Bala brillante.png using Guid(0f8bde01447413d498006196eccd127c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55553398e63fce628c0fbdff14fb9baa') in 0.012429 seconds
+  Import took 0.016943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.179669 seconds.
+  path: Assets/Zombies Level/pngegg.png
+  artifactKey: Guid(2664e048d2bd4e1419a95b1e4e5a0dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies Level/pngegg.png using Guid(2664e048d2bd4e1419a95b1e4e5a0dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cd9332e76af804a80899ec97d90b984') in 0.030046 seconds
+  Import took 0.035118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Zombies Level/zombiesss.asset
+  artifactKey: Guid(51af95e637045194faf2d8a170059a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies Level/zombiesss.asset using Guid(51af95e637045194faf2d8a170059a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04daca184d1320c06a23d6cf9685936d') in 0.004472 seconds
+  Import took 0.008321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.547377 seconds.
+  path: Assets/Zombies Level/Triangulo.cs
+  artifactKey: Guid(ed9af1c3494738043888a9e4bf53d7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies Level/Triangulo.cs using Guid(ed9af1c3494738043888a9e4bf53d7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b507497f82202fc8ed96dc8a1623d6') in 0.022080 seconds
+  Import took 0.027495 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002243 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.469 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.9 MB.
+System memory in use after: 89.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2304.
+Total: 2.844800 ms (FindLiveObjects: 0.413000 ms CreateObjectMapping: 0.100600 ms MarkObjects: 2.151300 ms  DeleteObjects: 0.178600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 203.007095 seconds.
+  path: Assets/StarWars level/Daco_58904.png
+  artifactKey: Guid(6b60c102201831c4aaca40cfc8530450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarWars level/Daco_58904.png using Guid(6b60c102201831c4aaca40cfc8530450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '919ac13b18fae70441993a3dc35bbdb3') in 0.098988 seconds
+  Import took 0.104338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/StarWars level/preview16.jpg
+  artifactKey: Guid(b7823ce20d31b6640af5a535d45b5af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarWars level/preview16.jpg using Guid(b7823ce20d31b6640af5a535d45b5af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7fbb7912533639dff0de370f8b04da3') in 0.036411 seconds
+  Import took 0.040766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/StarWars level/pngwing.com (1).png
+  artifactKey: Guid(886f4ad899c19974cb5df943a689e550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarWars level/pngwing.com (1).png using Guid(886f4ad899c19974cb5df943a689e550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ed8839822415d4a4981dd0c91a6747') in 0.027748 seconds
+  Import took 0.033755 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001684 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.451 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.0 MB.
+System memory in use after: 89.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2313.
+Total: 3.187600 ms (FindLiveObjects: 0.729800 ms CreateObjectMapping: 0.135300 ms MarkObjects: 2.136000 ms  DeleteObjects: 0.184000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 120.936762 seconds.
+  path: Assets/StarWars level/Spada1.png
+  artifactKey: Guid(eabe7d86bb0a88443abb5e5c2f755976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarWars level/Spada1.png using Guid(eabe7d86bb0a88443abb5e5c2f755976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '109b84ffb011e6ffbdb959aabbb164e3') in 0.086511 seconds
+  Import took 0.091498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.186519 seconds.
+  path: Assets/StarWars level/Spada2.png
+  artifactKey: Guid(41c7cbd2a71e37449a5ca184259b6ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarWars level/Spada2.png using Guid(41c7cbd2a71e37449a5ca184259b6ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a82286e1ffd72fb2d6d53066f7c018') in 0.021602 seconds
+  Import took 0.026665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005117 seconds.
+  path: Assets/StarWars level/Spada2.png
+  artifactKey: Guid(41c7cbd2a71e37449a5ca184259b6ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarWars level/Spada2.png using Guid(41c7cbd2a71e37449a5ca184259b6ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a82286e1ffd72fb2d6d53066f7c018') in 0.019633 seconds
+  Import took 0.027030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.162950 seconds.
+  path: Assets/StarWars level/sable-laser-.mp3
+  artifactKey: Guid(6a366f5cc1b67604ab96b1a4343c9100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarWars level/sable-laser-.mp3 using Guid(6a366f5cc1b67604ab96b1a4343c9100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68a0ab6fca6918503771646de5939195') in 0.052577 seconds
+  Import took 0.057560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.624033 seconds.
+  path: Assets/StarWars level/Spada3.png
+  artifactKey: Guid(780615af1dc2f4b4c9b882c8acc490d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarWars level/Spada3.png using Guid(780615af1dc2f4b4c9b882c8acc490d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2b2b19c1bf1314143491d8fb552f7f7') in 0.025136 seconds
+  Import took 0.030056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002219 seconds.
+  path: Assets/StarWars level/Spada3.png
+  artifactKey: Guid(780615af1dc2f4b4c9b882c8acc490d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarWars level/Spada3.png using Guid(780615af1dc2f4b4c9b882c8acc490d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2b2b19c1bf1314143491d8fb552f7f7') in 0.026477 seconds
+  Import took 0.031508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.377757 seconds.
+  path: Assets/StarWars level/Spada.png
+  artifactKey: Guid(29495751020198540bdc5533eb5f7f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarWars level/Spada.png using Guid(29495751020198540bdc5533eb5f7f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '470da6ead5a0127a179f26be2869a972') in 0.026924 seconds
+  Import took 0.031493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.538311 seconds.
+  path: Assets/StarWars level/Vuelta Azul.png
+  artifactKey: Guid(2f50c0552afd51b4ba5769f806dcefc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarWars level/Vuelta Azul.png using Guid(2f50c0552afd51b4ba5769f806dcefc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1255cc508d30a0d72e3d1fbe8431e361') in 0.015213 seconds
+  Import took 0.021966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000478 seconds.
+  path: Assets/StarWars level/Vuelta Encendida Verde.png
+  artifactKey: Guid(bbcc99c9cfd9c374688aec340faf73c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarWars level/Vuelta Encendida Verde.png using Guid(bbcc99c9cfd9c374688aec340faf73c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c4b75cd7785106e510e33e8195170d') in 0.012602 seconds
+  Import took 0.017164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/StarWars level/Vuelta Azul.png
+  artifactKey: Guid(2f50c0552afd51b4ba5769f806dcefc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarWars level/Vuelta Azul.png using Guid(2f50c0552afd51b4ba5769f806dcefc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1255cc508d30a0d72e3d1fbe8431e361') in 0.011646 seconds
+  Import took 0.015853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008921 seconds.
+  path: Assets/StarWars level/Vuelta Encendida Verde.png
+  artifactKey: Guid(bbcc99c9cfd9c374688aec340faf73c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarWars level/Vuelta Encendida Verde.png using Guid(bbcc99c9cfd9c374688aec340faf73c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c4b75cd7785106e510e33e8195170d') in 0.011059 seconds
+  Import took 0.015143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.814988 seconds.
+  path: Assets/StarWars level/Vuelta Roza.png
+  artifactKey: Guid(6025fa294a2b40c41b163c84d6e65e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarWars level/Vuelta Roza.png using Guid(6025fa294a2b40c41b163c84d6e65e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e16326c37ad015e4f862fe51d7e7bbd') in 0.012715 seconds
+  Import took 0.017350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.375637 seconds.
+  path: Assets/Global/cs.cs
+  artifactKey: Guid(7e509f9c364ea094182c7116278ee49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Global/cs.cs using Guid(7e509f9c364ea094182c7116278ee49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef97daff47a11cd705e230a533bc008d') in 0.011681 seconds
+  Import took 0.016842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.244217 seconds.
+  path: Assets/Global/Cstriger.cs
+  artifactKey: Guid(52f424a28036c194c947f226c279844b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Global/Cstriger.cs using Guid(52f424a28036c194c947f226c279844b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4d817a146c94bd874675774842681b9') in 0.007171 seconds
+  Import took 0.012234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.674513 seconds.
+  path: Assets/TerrorLevel/bat_PNG2.png
+  artifactKey: Guid(e269026f5ac51f3479d6b15e410a25ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrorLevel/bat_PNG2.png using Guid(e269026f5ac51f3479d6b15e410a25ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ed76a738a16f40b8c2e625a9c8de0e') in 0.037604 seconds
+  Import took 0.042103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.106046 seconds.
+  path: Assets/TerrorLevel/kisspng-headstone-cemetery-grave-clip-art-5ae2aebbf3dd28.3945636215248053079989.png
+  artifactKey: Guid(5ecf8593b35ca034e81338d6492ad151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrorLevel/kisspng-headstone-cemetery-grave-clip-art-5ae2aebbf3dd28.3945636215248053079989.png using Guid(5ecf8593b35ca034e81338d6492ad151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c59fa59942bb961f9446382e00ce543') in 0.032481 seconds
+  Import took 0.039254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001611 seconds.
+  path: Assets/TerrorLevel/kisspng-headstone-cemetery-grave-clip-art-5ae2aebbf3dd28.3945636215248053079989.png
+  artifactKey: Guid(5ecf8593b35ca034e81338d6492ad151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrorLevel/kisspng-headstone-cemetery-grave-clip-art-5ae2aebbf3dd28.3945636215248053079989.png using Guid(5ecf8593b35ca034e81338d6492ad151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c59fa59942bb961f9446382e00ce543') in 0.022390 seconds
+  Import took 0.027677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.501364 seconds.
+  path: Assets/TerrorLevel/stock-photography-wood-royalty-free-chain-wood-banner-sign-a7bb38cb47e8cbdfd532e2e7a8a44451.png
+  artifactKey: Guid(0da1d428993106c41b9619444f6050d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrorLevel/stock-photography-wood-royalty-free-chain-wood-banner-sign-a7bb38cb47e8cbdfd532e2e7a8a44451.png using Guid(0da1d428993106c41b9619444f6050d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '695fc53ded56a40a4c748d7f27f0de00') in 0.045221 seconds
+  Import took 0.049907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 448.562229 seconds.
   path: Assets/Zombies Level/zombies.unity
   artifactKey: Guid(a6bb3fa2c5772504fa67658dc40feb61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies Level/zombies.unity using Guid(a6bb3fa2c5772504fa67658dc40feb61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd28fa69ba374bcf2ed9b252f53ba3f29') in 0.002963 seconds
-  Import took 0.005901 seconds .
+Start importing Assets/Zombies Level/zombies.unity using Guid(a6bb3fa2c5772504fa67658dc40feb61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe1a8e9b9efeae477f0d88d9ed68ceb') in 0.013570 seconds
+  Import took 0.020458 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001943 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.434 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.1 MB.
+System memory in use after: 90.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2333.
+Total: 3.265200 ms (FindLiveObjects: 0.420600 ms CreateObjectMapping: 0.103100 ms MarkObjects: 2.574800 ms  DeleteObjects: 0.164800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 25.010541 seconds.
+  Time since last request: 247.995854 seconds.
+  path: Assets/TerrorLevel/Zombie font.asset
+  artifactKey: Guid(ba5cfb2e254728c4d94cbd9baf6f7ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrorLevel/Zombie font.asset using Guid(ba5cfb2e254728c4d94cbd9baf6f7ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76f8779a2488dec7416adb08fc72e4d9') in 0.025041 seconds
+  Import took 0.030895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 249.467243 seconds.
+  path: Assets/Zombies Level/cara_zombie 2.png
+  artifactKey: Guid(44566ffaa9569674bae744b5ec109d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies Level/cara_zombie 2.png using Guid(44566ffaa9569674bae744b5ec109d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '111552d88f54974509bcecdb705e6052') in 0.078905 seconds
+  Import took 0.085141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.575045 seconds.
+  path: Assets/Levels/hotel-pools-waves.mp3
+  artifactKey: Guid(8028c20a9df42fc4eb9364d69520ede1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Levels/hotel-pools-waves.mp3 using Guid(8028c20a9df42fc4eb9364d69520ede1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d6855676ca3018410dbc82fc228a5f') in 0.033178 seconds
+  Import took 0.038409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.274681 seconds.
+  path: Assets/Global/Triangulo.cs
+  artifactKey: Guid(b16a9eef54e2c464da8f5e94d981a184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Global/Triangulo.cs using Guid(b16a9eef54e2c464da8f5e94d981a184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '623fff0961f2c67784ee7066922e32a1') in 0.006145 seconds
+  Import took 0.010867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001191 seconds.
+  path: Assets/Global/Triangulo.cs
+  artifactKey: Guid(b16a9eef54e2c464da8f5e94d981a184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Global/Triangulo.cs using Guid(b16a9eef54e2c464da8f5e94d981a184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '623fff0961f2c67784ee7066922e32a1') in 0.003405 seconds
+  Import took 0.007557 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001872 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.502 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.1 MB.
+System memory in use after: 90.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2340.
+Total: 3.049400 ms (FindLiveObjects: 0.404800 ms CreateObjectMapping: 0.105800 ms MarkObjects: 2.352500 ms  DeleteObjects: 0.184500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001972 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.432 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.1 MB.
+System memory in use after: 90.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2344.
+Total: 3.013600 ms (FindLiveObjects: 0.429700 ms CreateObjectMapping: 0.123600 ms MarkObjects: 2.285700 ms  DeleteObjects: 0.173000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 255.446101 seconds.
+  path: Assets/Global/Bumper.cs
+  artifactKey: Guid(42eccad1dd2079f4e87b915f1b45b43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Global/Bumper.cs using Guid(42eccad1dd2079f4e87b915f1b45b43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d1184e6b71020b342406467cf07b38') in 0.019605 seconds
+  Import took 0.024118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 141.998890 seconds.
+  path: Assets/Apocalipsis Level/Apocalipsis2.unity
+  artifactKey: Guid(8cedaeff1d49f6646b6cde82dc899b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalipsis Level/Apocalipsis2.unity using Guid(8cedaeff1d49f6646b6cde82dc899b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f4978fa37fcdd7e3c9825abaafa426') in 0.021229 seconds
+  Import took 0.027783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.871702 seconds.
+  path: Assets/Apocalipsis Level/Multi3x-Rojo.png
+  artifactKey: Guid(057c9a3b8f7b4904fbfbc325bd60360d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalipsis Level/Multi3x-Rojo.png using Guid(057c9a3b8f7b4904fbfbc325bd60360d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfee4c6d3c579d396bc13a2a453da11d') in 0.076741 seconds
+  Import took 0.081943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.301796 seconds.
+  path: Assets/Apocalipsis Level/Multi5x-Rojo.png
+  artifactKey: Guid(e11934339108fb54dbf96c9f0e057363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalipsis Level/Multi5x-Rojo.png using Guid(e11934339108fb54dbf96c9f0e057363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a9b4086be01fadeb05e510e7ee2b44c') in 0.017003 seconds
+  Import took 0.021261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003543 seconds.
+  path: Assets/Apocalipsis Level/Multi5x-Rojo.png
+  artifactKey: Guid(e11934339108fb54dbf96c9f0e057363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalipsis Level/Multi5x-Rojo.png using Guid(e11934339108fb54dbf96c9f0e057363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a9b4086be01fadeb05e510e7ee2b44c') in 0.018683 seconds
+  Import took 0.023868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.458200 seconds.
+  path: Assets/Apocalipsis Level/marvin invisible.png
+  artifactKey: Guid(b30a9e21082f6744185c20e19ac78fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalipsis Level/marvin invisible.png using Guid(b30a9e21082f6744185c20e19ac78fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14815c1167e0cad2f2f934ae7570cc9f') in 0.017007 seconds
+  Import took 0.022241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.016190 seconds.
+  path: Assets/Apocalipsis Level/pngegg (1).png
+  artifactKey: Guid(a868b9d457c7f184dbb70bf889041949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalipsis Level/pngegg (1).png using Guid(a868b9d457c7f184dbb70bf889041949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c68d7618ccc7be156206cbc99858127') in 0.027850 seconds
+  Import took 0.032625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 246.880808 seconds.
+  path: Assets/MenuPrincipal/Rojo.asset
+  artifactKey: Guid(c2ee81b148bf38b459083f9cb1e0686c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenuPrincipal/Rojo.asset using Guid(c2ee81b148bf38b459083f9cb1e0686c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba31363e745a353b3cb27466c014d31') in 0.005149 seconds
+  Import took 0.009932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/MenuPrincipal/viq-alison-lecho-des-soupirs.mp3
+  artifactKey: Guid(6908a5bc2e7388148a52aaa762823c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenuPrincipal/viq-alison-lecho-des-soupirs.mp3 using Guid(6908a5bc2e7388148a52aaa762823c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f22f4d834c33be86776e1bdd8455561') in 0.046470 seconds
+  Import took 0.051124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.174200 seconds.
+  path: Assets/Apocalipsis Level/Multi2X-Rojo.png
+  artifactKey: Guid(1e0af64be2c17dd409b9661ba6b930ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalipsis Level/Multi2X-Rojo.png using Guid(1e0af64be2c17dd409b9661ba6b930ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e941033ac2b124100f727d9058b327f') in 0.025889 seconds
+  Import took 0.031921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 116.653527 seconds.
   path: Assets/corona level/covid.unity
   artifactKey: Guid(6a78b8f0e81784140bd773b972120abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/corona level/covid.unity using Guid(6a78b8f0e81784140bd773b972120abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3b4259f83f4b6e4533edccd4a453728') in 0.003339 seconds
-  Import took 0.006294 seconds .
+Start importing Assets/corona level/covid.unity using Guid(6a78b8f0e81784140bd773b972120abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f091a7a3abc7b8f1c8578ca777c161d') in 0.005197 seconds
+  Import took 0.009677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 135.566658 seconds.
+  path: Assets/corona level/triangulo_covid_ Inverso.png
+  artifactKey: Guid(15de18411c5d19041af4f87a40da8100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/corona level/triangulo_covid_ Inverso.png using Guid(15de18411c5d19041af4f87a40da8100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8e9dfd1637baa64445a10f52d6ed6d1') in 0.022988 seconds
+  Import took 0.027723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003155 seconds.
+  path: Assets/corona level/triangulo_covid_ Inverso.png
+  artifactKey: Guid(15de18411c5d19041af4f87a40da8100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/corona level/triangulo_covid_ Inverso.png using Guid(15de18411c5d19041af4f87a40da8100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8e9dfd1637baa64445a10f52d6ed6d1') in 0.022255 seconds
+  Import took 0.027956 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001719 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.451 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.4 MB.
+System memory in use after: 90.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2359.
+Total: 3.241500 ms (FindLiveObjects: 0.414100 ms CreateObjectMapping: 0.103100 ms MarkObjects: 2.525100 ms  DeleteObjects: 0.197600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001866 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.423 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.4 MB.
+System memory in use after: 90.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2363.
+Total: 2.855100 ms (FindLiveObjects: 0.390900 ms CreateObjectMapping: 0.103100 ms MarkObjects: 2.186200 ms  DeleteObjects: 0.173000 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

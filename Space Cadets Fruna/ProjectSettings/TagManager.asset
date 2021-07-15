@@ -12,6 +12,11 @@ TagManager:
   - Ball
   - Bumper10
   - ScreenShake
+  - Bumper30
+  - Bumper20
+  - MultiX2
+  - MultiX3
+  - MultiX5
   layers:
   - Default
   - TransparentFX
