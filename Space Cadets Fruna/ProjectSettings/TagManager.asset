@@ -49,3 +49,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: objetos
+    uniqueID: 1780518595
+    locked: 0
+  - name: Menus
+    uniqueID: 2939194435
+    locked: 0
